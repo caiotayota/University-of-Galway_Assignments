@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set, rendering mode, and viewport -->
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Title of the webpage -->
+    <title>Responsive Navbar using HTML, CSS and Javascript</title>
+    <!-- Link to the CSS stylesheet -->
+    <link href="./css/style.css" rel="stylesheet">
+    <!-- Link to Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <!-- Branding/logo -->
+        <a class="nav-branding" href="#">Shamrock Football Club</a>
+        <!-- Navigation menu -->
+        <ul class="nav-menu">
+            <!-- Home link -->
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <!-- About link -->
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <!-- Contact link -->
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+        <!-- Hamburger icon for mobile navigation -->
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+<main>
+    <!-- Logo -->
+    <div class="logo">
+        <img alt="logo" src="img/logo.png">
+    </div>
+    <!-- Image carousel -->
+    <div class="wrapper">
+        <!-- Left arrow for carousel -->
+        <i class="fa-solid fa-angle-left" id="left"></i>
+        <div class="carousel">
+            <!-- Carousel images -->
+            <img alt="img" draggable="false" src="img/image1.png">
+            <!-- Add more image elements as needed -->
+        </div>
+        <!-- Right arrow for carousel -->
+        <i class="fa-solid fa-angle-right" id="right"></i>
+    </div>
+</main>
+<section>
+    <!-- Match section -->
+    <div class="match">
+        <!-- Match header -->
+        <div class="match-header">
+            <!-- Tournament name and trophy icon -->
+            <div class="match-tournament">
+                <img alt="trophy" src="https://www.freeiconspng.com/thumbs/trophy-png/trophy-png-23.png"/>
+                Europe Premier League
+            </div>
+        </div>
+        <!-- Match content -->
+        <div class="match-content">
+            <!-- Column for first team -->
+            <div class="column">
+                <!-- Team details -->
+                <div class="team">
+                    <!-- Team logo -->
+                    <div class="team-logo">
+                        <img alt="logo" src="img/logo.png"/>
+                    </div>
+                    <!-- Team name -->
+                    <h2 class="team-name">Shamrock</h2>
+                </div>
+            </div>
+            <!-- Column for match details -->
+            <div class="column">
+                <!-- Match details -->
+                <div class="match-details">
+                    <!-- Match date and time -->
+                    <div class="match-date">
+                        26th September at <strong>16:00</strong>
+                    </div>
+                    <!-- Match score -->
+                    <div class="match-score">
+                        <span class="match-score-number">2</span>
+                        <span class="match-score-divider">:</span>
+                        <span class="match-score-number">1</span>
+                    </div>
+                    <!-- Match referee -->
+                    <div class="match-referee">
+                        Referee: <strong>Felix Brych</strong>
+                    </div>
+                </div>
+            </div>
+            <!-- Column for second team -->
+            <div class="column">
+                <!-- Team details -->
+                <div class="team">
+                    <!-- Team logo -->
+                    <div class="team-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/640px-FC_Internazionale_Milano_2021.svg.png"/>
+                    </div>
+                    <!-- Team name -->
+                    <h2 class="team-name">Inter Milan</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="direction">
+    <!-- Direction section -->
+    <div class="direction-team">
+        <!-- Team direction -->
+        <div class="chairperson">
+            <!-- Chairperson details -->
+            <img src="img/person1.png">
+            <h2>Peter O'Neill</h2>
+            <h3>Chairperson</h3>
+        </div>
+        <!-- Secretary details -->
+        <div class="secretary ">
+            <img src="img/person2.png">
+            <h2>Ken O'Connel</h2>
+            <h3>Secretary</h3>
+        </div>
+        <!-- Treasurer details -->
+        <div class="treasurer">
+            <img src="img/person3.png">
+            <h2>Mark Dunnes</h2>
+            <h3>Treasurer</h3>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <!-- Footer section -->
+    <div class="footer-container">
+        <!-- Footer description -->
+        <div class="footer-desc">
+            <h2>Shamrock Football Club</h2>
+            <p>Founded in 2023, Shamrock Football Club is a storied football club based in the heart of Dublin, Ireland.
+                The club's name pays homage to Ireland's rich cultural heritage, symbolizing the country's famous
+                "shamrock" emblem.
+            </p>
+        </div>
+        <!-- Footer links -->
+        <div class="footer-links">
+            <!-- Useful links -->
+            <div class="row useful-links">
+                <h2>Useful Links</h2>
+                <ul>
+                    <!-- Add useful links as needed -->
+                    <li><a href="https://europeanleague.football/" target="_blank">European League of Football</a></li>
+                    <li><a href="https://leagueofireland.ie/" target="_blank">League of Ireland</a></li>
+                    <li><a href="http://www.irishfa.com/" target="_blank">Irish Football Association</a></li>
+                    <li><a href="https://www.fai.ie/" target="_blank">Football Association of Ireland</a></li>
+                    <li><a href="https://www.uefa.com/uefachampionsleague/" target="_blank">UEFA Champions League</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Footer contact -->
+        <div class="footer-contact">
+            <div class="footer-contact-name">
+                <h3>Developed by</h3>
+            </div>
+            <!-- Developer contact information -->
+            <div>
+                <h4><a href="mailto:caiotayota@live.com">@caiotayota</a></h4>
+            </div>
+            <!-- Social media icons -->
+            <div class="footer-icons">
+                <ul>
+                    <!-- GitHub icon/link -->
+                    <li><a href="https://github.com/caiotayota" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+                    <!-- LinkedIn icon/link -->
+                    <li><a href="https://www.linkedin.com/in/caiotayota" target="_blank" ><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- JavaScript file for functionality -->
+<script src="js/script.js"></script>
+</body>
+</html>

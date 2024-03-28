@@ -1,0 +1,45 @@
+@media screen and (max-width: 700px) {
+    .description p{
+        display: none;
+    }
+
+    .description button {
+        display: none;
+    }
+
+    .newsletter {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .carousel-inner {
+        height: fit-content;
+        overflow: visible;
+        min-width: 300px;
+    }
+
+    .login-wrapper {
+        width: 95%;
+    }
+
+    .register-wrapper {
+        width: 95%;
+        min-width: 300px;
+    }
+
+    .formsize {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .useful-links-container {
+        display: none;
+    }
+    .useful-links li{
+        display: none;
+    }
+
+    .product-container img {
+        max-width: 90vw;
+    }
+}
