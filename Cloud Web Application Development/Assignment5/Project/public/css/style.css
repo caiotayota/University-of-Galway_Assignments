@@ -1,0 +1,64 @@
+
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background-feather.jpg");
+    background-size: cover;
+    overflow: auto;
+    min-height: calc(100vh - 56px);
+    max-height: calc(100vh - 56px);
+}
+
+#card1 {
+    height: 60vh;
+    max-height: calc(55vh - 100px);
+    overflow-y: scroll;
+    margin: 0 0 10px ;
+
+}
+
+.container-sm {
+    margin: 20px 0;
+}
+
+#name {
+    margin-top: -20px;
+}
+
+
+#icon {
+    margin-right: 5px;
+}
+
+#icon2 {
+    margin-right: 5px;
+}
+
+#name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#date {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#input-box {
+    font-size: 14px;
+    min-height: 100px;
+}
+
+#characters {
+    font-size: 12px;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px 25px 50px;
+}
+
+.comment-container {
+    max-width: 720px;
+    justify-content: center;
+}
